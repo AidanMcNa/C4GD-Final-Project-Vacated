@@ -9,11 +9,12 @@ public class playercontroller : MonoBehaviour
     public float turnSpeed = 20f;
     private float forwardInput;
     private float horizontalInput;
+    private Animator anim;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -30,5 +31,7 @@ public class playercontroller : MonoBehaviour
         //return -1 to 1 if player pressing a or d
         //return 0 if no input
         transform.Rotate(Vector3.up, Time.deltaTime * horizontalInput * turnSpeed);
+        anim.SetFloat("forward", forwardInput);
+
     }
 }
