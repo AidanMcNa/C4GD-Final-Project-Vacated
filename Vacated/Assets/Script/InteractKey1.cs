@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class InteractKey1 : MonoBehaviour
 {
-
+    public int sequence;
     // Start is called before the first frame update
     void Start()
     {
-
+        sequence = 0;
     }
 
     // Update is called once per frame
@@ -19,7 +19,7 @@ public class InteractKey1 : MonoBehaviour
 
     void OnTriggerEnter(Collider collider)
     {
-        if (gameObject.tag == "Bedroom1Key")
+        if (gameObject.tag == "Bedroom1Key" && sequence == 0)
         {
             // destroy this object
             Destroy(gameObject);
