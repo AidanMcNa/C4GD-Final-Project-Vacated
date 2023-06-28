@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class InteractMap : MonoBehaviour
 {
+    public AudioSource playSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,13 +14,15 @@ public class InteractMap : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+
     }
     void OnTriggerEnter(Collider collider)
     {
         if (gameObject.tag == "Map")
         {
             // destroy this object
+            playSound.Play();
             Destroy(gameObject);
         }
     }

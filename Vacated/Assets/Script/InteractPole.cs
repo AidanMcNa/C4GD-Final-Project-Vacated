@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class InteractPole : MonoBehaviour
 {
+    public AudioSource playSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +21,7 @@ public class InteractPole : MonoBehaviour
         if (gameObject.tag == "Pole")
         {
             // destroy this object
+            playSound.Play();
             Destroy(gameObject);
         }
     }

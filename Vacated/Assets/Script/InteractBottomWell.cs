@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class InteractBottomWell : MonoBehaviour
 {
+    public AudioSource playSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +21,7 @@ public class InteractBottomWell : MonoBehaviour
         if (gameObject.tag == "WellKey")
         {
             // destroy this object
+            playSound.Play();
             Destroy(gameObject);
         }
     }

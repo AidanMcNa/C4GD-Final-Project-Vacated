@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class InteractKey1 : MonoBehaviour
 {
-  
+    public AudioSource playSound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +22,7 @@ public class InteractKey1 : MonoBehaviour
         if (gameObject.tag == "Bedroom1Key")
         {
             // destroy this object
+            playSound.Play();
             Destroy(gameObject);
         }
     }
