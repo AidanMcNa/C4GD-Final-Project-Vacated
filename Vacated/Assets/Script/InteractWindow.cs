@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InteractKey1 : MonoBehaviour
+public class InteractWindow : MonoBehaviour
 {
-  
     // Start is called before the first frame update
     void Start()
     {
+        
     }
 
     // Update is called once per frame
@@ -15,15 +15,13 @@ public class InteractKey1 : MonoBehaviour
     {
 
     }
-
     void OnTriggerEnter(Collider collider)
     {
-        if (gameObject.tag == "Bedroom1Key")
+        if (gameObject.tag == "BreakWindow")
         {
             // destroy this object
             Destroy(gameObject);
         }
     }
-    
-
 }
+
