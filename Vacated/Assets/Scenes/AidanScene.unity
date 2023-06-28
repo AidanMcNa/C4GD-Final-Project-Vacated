@@ -2019,6 +2019,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
       propertyPath: m_RootOrder
       value: 99
@@ -2302,6 +2306,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
       propertyPath: m_Name
       value: stone_wall (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
       propertyPath: m_RootOrder
@@ -4291,6 +4299,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wood_bridge.001
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bc3db637d19884044a8d5ca83e0cf45d, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bc3db637d19884044a8d5ca83e0cf45d, type: 3}
       propertyPath: m_RootOrder
       value: 39
@@ -4361,8 +4373,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.264827, y: 0.41152668, z: 8}
-  m_Center: {x: 0, y: -0.16643178, z: 4}
+  m_Size: {x: 5.530315, y: 0.5631597, z: 8}
+  m_Center: {x: -0.13274407, y: -0.24224825, z: 4}
 --- !u!4 &391849327 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: bc3db637d19884044a8d5ca83e0cf45d, type: 3}
@@ -4674,7 +4686,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
       propertyPath: m_TagString
-      value: Ground
+      value: Grass
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
       propertyPath: m_RootOrder
@@ -5764,7 +5776,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: e2a8e210fce5ca942bcf577bb0b303f9, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e2a8e210fce5ca942bcf577bb0b303f9, type: 3}
       propertyPath: m_RootOrder
@@ -6602,6 +6614,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
       propertyPath: m_Name
       value: stone_wall (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
       propertyPath: m_RootOrder
@@ -10105,6 +10121,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
       propertyPath: m_RootOrder
       value: 109
@@ -11294,6 +11314,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
       propertyPath: m_RootOrder
       value: 92
@@ -11586,6 +11610,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
       propertyPath: m_RootOrder
       value: 107
@@ -11786,6 +11814,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
       propertyPath: m_Name
       value: stone_wall (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12443,6 +12475,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
       propertyPath: m_Name
       value: stone_wall (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
       propertyPath: m_RootOrder
@@ -13642,6 +13678,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
       propertyPath: m_RootOrder
       value: 97
@@ -13868,6 +13908,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
       propertyPath: m_Name
       value: stone_wall (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
       propertyPath: m_RootOrder
@@ -14562,6 +14606,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
       propertyPath: m_Name
       value: stone_wall (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
       propertyPath: m_RootOrder
@@ -15556,6 +15604,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
       propertyPath: m_RootOrder
       value: 100
@@ -16363,6 +16415,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
       propertyPath: m_Name
       value: stone_wall (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
       propertyPath: m_RootOrder
@@ -18784,6 +18840,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wood_bridge.001 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bc3db637d19884044a8d5ca83e0cf45d, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bc3db637d19884044a8d5ca83e0cf45d, type: 3}
       propertyPath: m_RootOrder
       value: 207
@@ -18999,8 +19059,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 6.000002, y: 6.0000005, z: 2.4000003}
-  m_Center: {x: -3.0000007, y: 2.9999979, z: 0.00000011920929}
+  m_Size: {x: 6.0000014, y: 7.2307534, z: 2.4000003}
+  m_Center: {x: -3.0000005, y: 3.6153743, z: 0.00000008601367}
 --- !u!1001 &1630384366
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19011,6 +19071,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
       propertyPath: m_Name
       value: stone_wall (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
       propertyPath: m_RootOrder
@@ -21638,6 +21702,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BreakWindow
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
       propertyPath: m_RootOrder
       value: 157
@@ -22220,6 +22288,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4739f2b2df0e3a74fbf722c2197004c2, type: 3}
       propertyPath: m_Name
       value: stone_half_gate
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4739f2b2df0e3a74fbf722c2197004c2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4739f2b2df0e3a74fbf722c2197004c2, type: 3}
       propertyPath: m_RootOrder
@@ -23004,6 +23076,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
       propertyPath: m_Name
       value: stone_wall (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
       propertyPath: m_RootOrder
