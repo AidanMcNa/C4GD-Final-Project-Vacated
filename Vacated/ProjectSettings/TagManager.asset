@@ -6,6 +6,11 @@ TagManager:
   tags:
   - FxTemporaire
   - Bedroom1Key
+  - BreakWindow
+  - Pole
+  - WellKey
+  - Map
+  - FinalKey
   layers:
   - Default
   - TransparentFX
