@@ -10,11 +10,21 @@ public class playercontroller : MonoBehaviour
     private float forwardInput;
     private float horizontalInput;
     private Animator anim;
+    private AudioSource playerAudio;
+
+    //public float timeRemaining = 10;
+    private bool OnGround = true;
+    public AudioClip walkSound;
+
+    private float timer;
+    public float lap;
+
 
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
+        playerAudio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -33,5 +43,16 @@ public class playercontroller : MonoBehaviour
         transform.Rotate(Vector3.up, Time.deltaTime * horizontalInput * turnSpeed);
         anim.SetFloat("forward", forwardInput);
 
+        timer += Time.deltaTime;
+        if (timer > lap && forwardInput != 0)
+        {
+            playerAudio.PlayOneShot(walkSound, 1f);
+
+            timer = 0f;
+        }
+        
     }
+
+    
+
 }

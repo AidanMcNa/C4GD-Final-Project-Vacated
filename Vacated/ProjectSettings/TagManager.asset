@@ -6,6 +6,7 @@ TagManager:
   tags:
   - FxTemporaire
   - Bedroom1Key
+  - Ground
   layers:
   - Default
   - TransparentFX
