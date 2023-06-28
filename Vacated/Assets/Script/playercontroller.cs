@@ -15,6 +15,7 @@ public class playercontroller : MonoBehaviour
     //public float timeRemaining = 10;
     private bool OnGround = true;
     public AudioClip walkSound;
+    public AudioClip grassSound;
 
     private float timer;
     public float lap;
@@ -44,15 +45,39 @@ public class playercontroller : MonoBehaviour
         anim.SetFloat("forward", forwardInput);
 
         timer += Time.deltaTime;
-        if (timer > lap && forwardInput != 0)
+
+
+        
+
+
+        if (timer > lap && forwardInput != 0 && OnGround)
         {
             playerAudio.PlayOneShot(walkSound, 1f);
+
+            timer = 0f;
+        }
+        if (timer > lap && forwardInput != 0 && OnGround == false)
+        {
+            playerAudio.PlayOneShot(grassSound, 1f);
 
             timer = 0f;
         }
         
     }
 
-    
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Grass"))
+        {
+            OnGround = false;
+        }
+        else if (collision.gameObject.CompareTag("Ground"))
+        {
+            OnGround= true;
+        }
+    }
+
+
 
 }

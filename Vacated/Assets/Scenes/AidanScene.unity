@@ -4672,6 +4672,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stone_wall (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4b87d04480274ae49a51f1ae71ec61af, type: 3}
       propertyPath: m_RootOrder
       value: 112
@@ -5760,7 +5764,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: e2a8e210fce5ca942bcf577bb0b303f9, type: 3}
       propertyPath: m_TagString
-      value: Ground
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e2a8e210fce5ca942bcf577bb0b303f9, type: 3}
       propertyPath: m_RootOrder
@@ -19130,6 +19134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P1
       objectReference: {fileID: 0}
+    - target: {fileID: 1782702501690864755, guid: 60770bdb4dc667c45bea53db0339dc05, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 2734890469023871359, guid: 60770bdb4dc667c45bea53db0339dc05, type: 3}
       propertyPath: m_LocalScale.x
       value: 5
@@ -19209,6 +19217,7 @@ MonoBehaviour:
   speed: 5
   turnSpeed: 180
   walkSound: {fileID: 8300000, guid: 38d32c7daa03c674cab443ec5202891f, type: 3}
+  grassSound: {fileID: 8300000, guid: 400e72d9a3d1e5640aea9c96cbd6d402, type: 3}
   lap: 0.43
 --- !u!65 &1631862541
 BoxCollider:
@@ -25003,7 +25012,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 198366e84a02a6c44b1503102d740b13, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.167
+  m_Volume: 0.501
   m_Pitch: 1
   Loop: 0
   Mute: 0
