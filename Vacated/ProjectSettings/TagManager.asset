@@ -4,17 +4,14 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - FxTemporaire
-  - Bedroom1Key
-<<<<<<< HEAD
-  - Ground
-=======
+  - WellKey
+  - FinalKey
   - BreakWindow
   - Pole
-  - WellKey
+  - Bedroom1Key
   - Map
-  - FinalKey
->>>>>>> b8c6cbab3c8dcfa4201b0c17ec644404e400ce95
+  - Ground
+  - Grass
   layers:
   - Default
   - TransparentFX
