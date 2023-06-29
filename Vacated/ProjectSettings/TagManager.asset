@@ -3,22 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - WellKey
-  - FinalKey
-  - BreakWindow
-  - Pole
-  - Bedroom1Key
-  - Map
-  - Ground
-  - Grass
-<<<<<<< HEAD
-  - Trigger
-  - player
-=======
-  - FxTemporaire
-  - ExitBox
->>>>>>> 3f0c710fa926c1c16b453229a4953f2eaf88ecd6
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -26,7 +11,7 @@ TagManager:
   - 
   - Water
   - UI
-  - UI background
+  - 
   - 
   - 
   - 
