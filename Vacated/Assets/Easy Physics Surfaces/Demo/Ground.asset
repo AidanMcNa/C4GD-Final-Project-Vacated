@@ -12,16 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d32acff58b686d4d80b6c34fbc226e6, type: 3}
   m_Name: Ground
   m_EditorClassIdentifier: 
-  HeavyStepThreshold: 0.7
   Footsteps:
-  - {fileID: 8300000, guid: dfa2589bfaf1fe74a8f211dc8644c456, type: 3}
-  - {fileID: 8300000, guid: 223cb9f5139ebba4b85635e448d7e27b, type: 3}
-  - {fileID: 8300000, guid: 8fdf36c11f26dab478f0e2c1a2cbccdc, type: 3}
-  - {fileID: 8300000, guid: 9cfb7a52cdbe65a46af4ae57e9a99683, type: 3}
-  - {fileID: 8300000, guid: 28e231d8aa9f4c44a9b63c383f707de5, type: 3}
+  - {fileID: 8300000, guid: 03ff570d9d9b2a14bade076d123de76f, type: 3}
+  - {fileID: 8300000, guid: 6ac817ab9dc5f8f4ba89c8e6f472dc61, type: 3}
+  - {fileID: 8300000, guid: 7842e0ac0efbe9c4b9b33a7c0bbd06b8, type: 3}
+  - {fileID: 8300000, guid: d419fd6585a065346a541efb1e028762, type: 3}
+  - {fileID: 8300000, guid: be99bcaa4db81854cbbb593bce1c6687, type: 3}
   HeavyFootsteps:
-  - {fileID: 8300000, guid: 38d32c7daa03c674cab443ec5202891f, type: 3}
-  - {fileID: 8300000, guid: 78e2334b1362fe44f8450929e1f4e5b7, type: 3}
-  - {fileID: 8300000, guid: 5dff2c8683b641e498b34a4be761154c, type: 3}
-  - {fileID: 8300000, guid: 434ba3237b64f92439af27a4b3509787, type: 3}
-  - {fileID: 8300000, guid: 3998a9dc1376eb342945a3b46d6b4314, type: 3}
+  - {fileID: 8300000, guid: 320a26bc88d208f4a90b2f3e3df7945e, type: 3}
+  - {fileID: 8300000, guid: 9f368e0020bebf04ba88b331d3b493f1, type: 3}
+  - {fileID: 8300000, guid: af9a70c7d19e8a343a6ab33b243f54f0, type: 3}
+  - {fileID: 8300000, guid: c1cf16b7cbddcef4881a7c62cfa94475, type: 3}
+  - {fileID: 8300000, guid: 21b9cd43c9f890f4bacf2ad45fbe7787, type: 3}

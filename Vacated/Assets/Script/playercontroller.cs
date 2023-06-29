@@ -11,6 +11,8 @@ public class playercontroller : MonoBehaviour
     private float horizontalInput;
     private Animator anim;
     private AudioSource playerAudio;
+    public GameObject wall;
+    public GameObject zombie;
 
     //public float timeRemaining = 10;
     private bool OnGround = true;
@@ -19,7 +21,8 @@ public class playercontroller : MonoBehaviour
 
     private float timer;
     public float lap;
-
+    public float lap2;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -55,12 +58,21 @@ public class playercontroller : MonoBehaviour
             playerAudio.PlayOneShot(walkSound, 1f);
 
             timer = 0f;
+            
         }
         if (timer > lap && forwardInput != 0 && OnGround == false)
         {
             playerAudio.PlayOneShot(grassSound, 1f);
 
             timer = 0f;
+            
+        }
+        if(timer > lap2)
+        {
+            wall.SetActive(true);
+            zombie.SetActive(true);
+            timer = 0f;
+
         }
         
     }
@@ -76,6 +88,7 @@ public class playercontroller : MonoBehaviour
         {
             OnGround= true;
         }
+        
     }
 
 

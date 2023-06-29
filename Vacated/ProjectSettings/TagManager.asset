@@ -12,6 +12,8 @@ TagManager:
   - Map
   - Ground
   - Grass
+  - Trigger
+  - player
   layers:
   - Default
   - TransparentFX
