@@ -13,6 +13,8 @@ public class playercontroller : MonoBehaviour
     private AudioSource playerAudio;
     public GameObject wall;
     public GameObject zombie;
+    public GameObject trigga;
+    public GameObject monsta;
 
     //public float timeRemaining = 10;
     private bool OnGround = true;
@@ -22,6 +24,7 @@ public class playercontroller : MonoBehaviour
     private float timer;
     public float lap;
     public float lap2;
+
     
 
     // Start is called before the first frame update
@@ -88,9 +91,13 @@ public class playercontroller : MonoBehaviour
         {
             OnGround= true;
         }
-        
+        if (collision.gameObject.CompareTag("trigga"))
+        {
+            monsta.SetActive(true);
+            Debug.Log("Hi");
+        }
     }
-
+    
 
 
 }

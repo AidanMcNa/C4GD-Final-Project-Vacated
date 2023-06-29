@@ -3,7 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - player
+  - WellKey
+  - Ground
+  - FinalKey
+  - ExitBox
+  - BreakWindow
+  - Grass
+  - Pole
+  - Trigger
+  - Bedroom1Key
+  - Map
+  - trigga
   layers:
   - Default
   - TransparentFX
