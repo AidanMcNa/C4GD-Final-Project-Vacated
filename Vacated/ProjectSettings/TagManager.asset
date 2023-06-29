@@ -12,8 +12,13 @@ TagManager:
   - Map
   - Ground
   - Grass
+<<<<<<< HEAD
   - Trigger
   - player
+=======
+  - FxTemporaire
+  - ExitBox
+>>>>>>> 3f0c710fa926c1c16b453229a4953f2eaf88ecd6
   layers:
   - Default
   - TransparentFX
@@ -21,7 +26,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - UI background
   - 
   - 
   - 
