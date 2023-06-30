@@ -15,6 +15,7 @@ public class playercontroller : MonoBehaviour
     public GameObject zombie;
     public GameObject trigga;
     public GameObject monsta;
+    public GameObject trigga2;
 
     //public float timeRemaining = 10;
     private bool OnGround = true;
@@ -95,6 +96,11 @@ public class playercontroller : MonoBehaviour
         {
             monsta.SetActive(true);
             Debug.Log("Hi");
+        }
+        if (collision.gameObject.CompareTag("Trigga2"))
+        {
+            monsta.SetActive(false);
+            Debug.Log("Bye");
         }
     }
     

@@ -11,12 +11,14 @@ public class SC_NPCFollow : MonoBehaviour
     //NavMesh Agent variable
     NavMeshAgent agent;
     private Animator anim;
+    
 
     // Start is called before the first frame update
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         anim = GetComponent<Animator>();
+        
 
     }
 
