@@ -22767,11 +22767,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1438546959266459337, guid: 60770bdb4dc667c45bea53db0339dc05, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.52
+      value: 0.48
       objectReference: {fileID: 0}
     - target: {fileID: 1438546959266459337, guid: 60770bdb4dc667c45bea53db0339dc05, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -15.72
+      value: -16.77
       objectReference: {fileID: 0}
     - target: {fileID: 1438546959266459337, guid: 60770bdb4dc667c45bea53db0339dc05, type: 3}
       propertyPath: m_LocalRotation.w
@@ -29273,9 +29273,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a4ac35cee898c849a31fe37ddec7c10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2.2
+  speed: 2.25
   transformToFollow: {fileID: 2077013183}
-  lap: 2.5
+  lap: 3
   monSound: {fileID: 8300000, guid: bdb798b20d5ac2f438f3a562f4150019, type: 3}
 --- !u!65 &2069340205
 BoxCollider:
@@ -29299,11 +29299,11 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2069340199}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
+  m_Avatar: {fileID: 9000000, guid: e7b3b195872dab2408896870b9dd08f5, type: 3}
   m_Controller: {fileID: 9100000, guid: 76e4d6e7f9e9e4443afdf9aba041cd69, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -29560,7 +29560,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a395888cc2596d843b53cd7bc4e192de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2.8
   turnSpeed: 180
   wall: {fileID: 1385165610}
   zombie: {fileID: 749770449}
