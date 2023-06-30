@@ -38,6 +38,13 @@ public class playercontroller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(timer > lap2)
+        {
+            wall.SetActive(true);
+            zombie.SetActive(true);
+            timer = 0f;
+
+        }
         //move the vehicle forward
         forwardInput = Input.GetAxis("Vertical");
         //return -1 to 1 if player pressing s or w
@@ -71,13 +78,7 @@ public class playercontroller : MonoBehaviour
             timer = 0f;
             
         }
-        if(timer > lap2)
-        {
-            wall.SetActive(true);
-            zombie.SetActive(true);
-            timer = 0f;
-
-        }
+        
         
     }
 

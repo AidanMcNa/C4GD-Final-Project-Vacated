@@ -11,14 +11,18 @@ public class SC_NPCFollow : MonoBehaviour
     //NavMesh Agent variable
     NavMeshAgent agent;
     private Animator anim;
-    
+    private float timer;
+    public float lap;
+    public AudioClip monSound;
+    private AudioSource playerAudio;
+
 
     // Start is called before the first frame update
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         anim = GetComponent<Animator>();
-        
+        playerAudio = GetComponent<AudioSource>();
 
     }
 
@@ -30,6 +34,16 @@ public class SC_NPCFollow : MonoBehaviour
         agent.speed = speed;
         
         anim.SetBool("move", true);
+        
+        timer += Time.deltaTime;
+
+        if (timer > lap)
+        {
+            playerAudio.PlayOneShot(monSound, 1f);
+
+            timer = 0f;
+
+        }
         
     }
 }
